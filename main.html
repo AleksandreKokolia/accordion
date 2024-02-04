@@ -99,6 +99,11 @@
             </div>
         </div>
     </div>
+    <script>
+        const items = document.querySelectorAll('.item');
+        const arrayItems = Array.from(items);
+        arrayItems.map((item) => { item.addEventListener('click', () => { item.classList.toggle("open") }) });
+       </script>
 </body>
 
 </html>
