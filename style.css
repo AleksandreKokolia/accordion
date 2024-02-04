@@ -1,18 +1,16 @@
-body {}
 
 .accordeon {
-
+    width: 900px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 100px auto;
     height: 100vh;
     gap: 50px;
 }
 
 .item {
 
-    width: 1000px;
+    
     box-shadow: 0px 0px 30px #868e96;
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -43,13 +41,16 @@ body {}
 
 .text {
     margin-bottom: 40px;
-
     font-weight: bold;
+    font-size: 20px;
 }
 
-.text,
+
 .list {
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .box_hiden {
@@ -58,11 +59,7 @@ body {}
 
 }
 
-.list li {
-    list-style-type: circle;
-    list-style-position: inside;
-    color: #868e96;
-}
+
 
 
 
